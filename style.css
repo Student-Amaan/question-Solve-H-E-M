@@ -1,0 +1,10 @@
+#photo-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+#photo-container img{
+  width: 100%;
+  border-radius: 8px;
+}
